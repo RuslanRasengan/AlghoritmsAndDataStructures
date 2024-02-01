@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearDataStructures", "LinearDataStructures\LinearDataStructures.csproj", "{7E1AF5C1-6A1C-4F27-97A7-20718BC3C008}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSortingAlghoritms", "CoreSortingAlghoritms\CoreSortingAlghoritms.csproj", "{C12FF64B-ED3E-4710-B0E7-D22B23CDE283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSearchAlghoritms", "CoreSearchAlghoritms\CoreSearchAlghoritms.csproj", "{24A168F6-E7C4-4DC6-B24F-9F848F70A45E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7E1AF5C1-6A1C-4F27-97A7-20718BC3C008}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E1AF5C1-6A1C-4F27-97A7-20718BC3C008}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E1AF5C1-6A1C-4F27-97A7-20718BC3C008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12FF64B-ED3E-4710-B0E7-D22B23CDE283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12FF64B-ED3E-4710-B0E7-D22B23CDE283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12FF64B-ED3E-4710-B0E7-D22B23CDE283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12FF64B-ED3E-4710-B0E7-D22B23CDE283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A168F6-E7C4-4DC6-B24F-9F848F70A45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A168F6-E7C4-4DC6-B24F-9F848F70A45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A168F6-E7C4-4DC6-B24F-9F848F70A45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A168F6-E7C4-4DC6-B24F-9F848F70A45E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
