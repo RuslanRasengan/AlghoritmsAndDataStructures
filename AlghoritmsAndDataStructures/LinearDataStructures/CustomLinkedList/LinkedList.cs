@@ -1,9 +1,10 @@
 ﻿namespace LinearDataStructures.CustomLinkedList
 {
-    public class CustomLinkedList
+    public class LinkedList
     {
-        private CustomNode head; //Start of the node
-        public CustomLinkedList()
+        private Node head; //Start of the node
+        public Node Head => head; //Return Head
+        public LinkedList()
         {
             head = null;
         }
@@ -11,7 +12,7 @@
         //Method for adding a new node at the beginning of the list
         public void AddFirst(int data)
         {
-            CustomNode newNode = new CustomNode(data);
+            Node newNode = new Node(data);
             newNode.Next = head;
             head = newNode;
         }
@@ -19,7 +20,7 @@
         //Method for displaying all elements of the list
         public void PrintAllNodes()
         {
-            CustomNode current = head;
+            Node current = head;
             while(current != null)
             {
                 Console.WriteLine(current.Data);
