@@ -1,15 +1,15 @@
 ﻿namespace LinearDataStructures.CustomStack
 {
-    public class Stack<T>
+    public class MyStack<T>
     {
         private T[] stackArray;
         private int maxSize;
         private int top;
 
-        public Stack(int size)
+        public MyStack(int size)
         {
             maxSize = size;
-            stackArray = new T(maxSize);
+            stackArray = new T[maxSize];
             top = -1;
         }
 
@@ -27,15 +27,29 @@
 
         public T Pop()
         {
-
+            if (top >= 0) 
+            {
+                return stackArray[top--];
+            }
+            else
+            {
+                throw new InvalidOperationException("Stack is empty");
+            }
         }
 
         public T Peek()
         {
-
+            if(top >= 0)
+            {
+                return stackArray[top];
+            }
+            else
+            {
+                throw new InvalidOperationException("Stack is empty");
+            }
         }
 
-        public bool isEmpty()
+        public bool IsEmpty()
         {
             return top == -1;
         }

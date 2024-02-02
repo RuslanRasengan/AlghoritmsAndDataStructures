@@ -1,4 +1,5 @@
 ﻿using LinearDataStructures.CustomLinkedList;
+using LinearDataStructures.CustomStack;
 
 class Program
 {
@@ -6,6 +7,10 @@ class Program
     {
         LinkedListInvoker listInvoker = new LinkedListInvoker();
         listInvoker.InvokeLinkedList();
+
+        StackInvoker stackInvoker = new StackInvoker();
+        stackInvoker.InvokeMyStack();
+        stackInvoker.InvokeMyStackTests();
 
         Console.ReadLine();
 
